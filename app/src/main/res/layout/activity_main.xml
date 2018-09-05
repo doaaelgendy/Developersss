@@ -4,7 +4,7 @@ xmlns:tools="http://schemas.android.com/tools"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
 tools:context=".MainActivity"
-android:background="#c1d5e0">
+android:background="#d7e2e4">
 
 <ImageView
     android:id="@+id/imageview"
@@ -40,34 +40,46 @@ android:background="#c1d5e0">
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:layout_marginLeft="40dp"
 
         android:orientation="vertical">
 
     <ImageView
-        android:layout_height="35dp"
+        android:layout_height="40dp"
         android:layout_width="wrap_content"
-        android:src="@drawable/java" />
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="الفريق البرمجى"/>
+        android:src="@drawable/java"
+        android:layout_marginLeft="5dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="الفريق البرمجى"
+            android:background="@drawable/drawable2"
+            android:textColor="#d7e2e4"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+
+            />
     </LinearLayout>
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-
         android:orientation="vertical">
 
         <ImageView
             android:layout_width="wrap_content"
-            android:layout_height="35dp"
-            android:src="@drawable/java" />
+            android:layout_height="45dp"
+            android:src="@drawable/xml"
+            android:layout_marginLeft="5dp"/>
         <Button
+            android:background="@drawable/drawable2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="فريق xml"/>
+            android:text="فريق   xml"
+            android:textColor="#d7e2e4"
+            android:layout_marginLeft="20dp"
+
+            />
     </LinearLayout>
 
 
@@ -75,18 +87,25 @@ android:background="#c1d5e0">
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:layout_marginRight="40dp"
         android:orientation="vertical">
 
         <ImageView
             android:layout_width="wrap_content"
-            android:layout_height="35dp"
-            android:src="@drawable/dee" />
-        <Button
+            android:layout_height="40dp"
+            android:src="@drawable/design"
+            android:layout_marginLeft="5dp"
+            />
 
+        <Button
+            android:background="@drawable/drawable2"
             android:layout_width="wrap_content"
+            android:textColor="#d7e2e4"
+            android:layout_marginTop="5dp"
             android:layout_height="wrap_content"
-            android:text=" فريق التصميم"/>
+            android:text=" فريق التصميم"
+            android:layout_marginLeft="20dp"
+
+            />
     </LinearLayout>
 
 </LinearLayout>
